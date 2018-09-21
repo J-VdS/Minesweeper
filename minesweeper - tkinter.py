@@ -275,13 +275,13 @@ anchor=CENTER, font=('Helvetica', 10), text='You won!', color='blue')
                 print('failed')
                 return
     def apply(self):
-        rijen = self.entry1.get()
+        lijnen = self.entry1.get()
         kolommen = self.entry2.get()
         bommen = self.entry3.get()
 
         if rijen and kolommen and bommen:
             try:
-                self.rijen = int(rijen)
+                self.lijnen = int(lijnen)
                 self.kolommen = int(kolommen)
                 self.bommen = int(bommen)
                 self.tk2.destroy()
