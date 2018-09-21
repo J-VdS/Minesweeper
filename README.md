@@ -1,4 +1,5 @@
-# Minesweeper
+# Minesweeper 
+#### using tkinter
 
 ## Required libraries:
 * tkinter
